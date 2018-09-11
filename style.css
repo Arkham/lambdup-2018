@@ -1,0 +1,55 @@
+html, body {
+  box-sizing: border-box;
+  font-family: Futura, Arial, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  border-top: 1px solid #eee;
+  box-shadow: 0 15px 10px #aaa;
+}
+
+.grid--row {
+  width: 100%;
+  border-bottom: 15px solid black;
+}
+
+.grid--row:last-child {
+  border-bottom: 0;
+}
+
+.grid--cell {
+  height: 100%;
+  float: left;
+  border-right: 12px solid black;
+}
+
+.grid--cell:last-child {
+  border-right: 0;
+}
+
+.grid--cell__white {
+  background-color: white;
+}
+
+.grid--cell__blue {
+  background-color: #4172B3;
+}
+
+.grid--cell__red {
+  background-color: #CF2D25;
+}
+
+.grid--cell__yellow {
+  background-color: #FADB3B;
+}
