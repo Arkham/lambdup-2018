@@ -2,8 +2,8 @@ module Main exposing (main)
 
 import Browser
 import Html exposing (Html)
+import Html.Attributes as Attr
 import Html.Events exposing (onClick)
-import Random
 
 
 -- MAIN
