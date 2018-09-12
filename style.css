@@ -53,3 +53,23 @@ h1 {
 .grid--cell__yellow {
   background-color: #FADB3B;
 }
+
+.grid--cell__recursive {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.grid--two-by-side {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.grid--two-stacked {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
